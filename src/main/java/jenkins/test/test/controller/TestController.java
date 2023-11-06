@@ -17,7 +17,7 @@ public class TestController {
     @GetMapping()
     public String readString(HttpServletRequest request){
         logger.info("readString 진행중입니다. "+request.getRemoteAddr());
-        return "HELLO WORLD!!!!HELLO WORLD!!!!HELLO WORLD!!!!HELLO WORLD!!!!HELLO WORLD!!!!HELLO WORLD!!!!";
+        return "HELLO WORLD!!!!HELLO WORLD!!!!HELLO WORLD!!!!HELLO WORLD!!!!HELLO WORLD!!!!HELLO WORLD!!!!!! 오민귭니다 오민규";
     }
 
     @GetMapping("/hi")
