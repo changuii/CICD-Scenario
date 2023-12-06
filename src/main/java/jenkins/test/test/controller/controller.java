@@ -16,7 +16,7 @@ public class controller {
 
     @GetMapping("/")
     public String homePage(HttpServletRequest request){
-        logger.info(request.getRemoteAddr());
+        logger.info("request Ip : "+request.getRemoteAddr());
         return "home";
     }
 }
