@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class controller {
     private static final Logger logger = LoggerFactory.getLogger(controller.class);
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public String homePage(HttpServletRequest request){
         logger.info("Request Ip : "+request.getRemoteAddr());
         return "home";
